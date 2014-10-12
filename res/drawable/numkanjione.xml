@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+   
+    <item android:drawable="@drawable/numkanjione8" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione7" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione6" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione5" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione4" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione3" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione2" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione1" android:duration="100" />
+    <item android:drawable="@drawable/numkanjione0" android:duration="400" />
+
+</animation-list>

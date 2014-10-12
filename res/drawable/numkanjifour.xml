@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+   	<item android:drawable="@drawable/numkanjifour22" android:duration="100"/>
+   	<item android:drawable="@drawable/numkanjifour21" android:duration="100" />
+   	<item android:drawable="@drawable/numkanjifour20" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour19" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour18" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour17" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour16" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour15" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour14" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour13" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour12" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour11" android:duration="100"/>
+   	<item android:drawable="@drawable/numkanjifour10" android:duration="100" />
+   	<item android:drawable="@drawable/numkanjifour9" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour8" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour7" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour6" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour5" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour4" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour3" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour2" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour1" android:duration="100" />
+    <item android:drawable="@drawable/numkanjifour0" android:duration="400" />
+    
+    
+
+</animation-list>

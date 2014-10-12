@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="adina.education.kanji_gate"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="adina.education.kanji_gate.MainScreenFlashcards"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards"
+            android:label="@string/title_activity_num_flashcards"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards1"
+            android:label="@string/title_activity_num_flashcards1"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards2"
+            android:label="@string/title_activity_num_flashcards2"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.MainAnimation"
+            android:label="@string/title_activity_main_animation" >
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.Welcome"
+            android:label="@string/title_activity_welcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumAnimation1"
+            android:label="@string/title_activity_num_animation1"
+            android:parentActivityName="adina.education.quickkanji.MainAnimation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.quickkanji.MainAnimation" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumAnimation"
+            android:label="@string/title_activity_num_animation" >
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumAnimation2"
+            android:label="@string/title_activity_num_animation2"
+            android:parentActivityName="adina.education.quickkanji.MainAnimation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.quickkanji.MainAnimation" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards3"
+            android:label="@string/title_activity_num_flashcards3"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumAnimation4"
+            android:label="@string/title_activity_num_animation4"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards4"
+            android:label="@string/title_activity_num_flashcards4"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards5"
+            android:label="@string/title_activity_num_flashcards5"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards6"
+            android:label="@string/title_activity_num_flashcards6" >
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards7"
+            android:label="@string/title_activity_num_flashcards7"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards8"
+            android:label="@string/title_activity_num_flashcards8"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards9"
+            android:label="@string/title_activity_num_flashcards9"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards10"
+            android:label="@string/title_activity_num_flashcards10"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards11"
+            android:label="@string/title_activity_num_flashcards11"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumFlashcards12"
+            android:label="@string/title_activity_num_flashcards12"
+            android:parentActivityName="adina.education.kanji_gate.MainScreenFlashcards" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.kanji_gate.MainScreenFlashcards" />
+        </activity>
+        <activity
+            android:name="adina.education.kanji_gate.NumAnimation3"
+            android:label="@string/title_activity_num_animation3"
+            android:parentActivityName="adina.education.quickkanji.MainAnimation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="adina.education.quickkanji.MainAnimation" />
+        </activity>
+    </application>
+
+</manifest>

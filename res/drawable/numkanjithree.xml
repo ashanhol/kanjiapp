@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false" >
+   	<item android:drawable="@drawable/numkanjithree12" android:duration="100"/>
+   	<item android:drawable="@drawable/numkanjithree11" android:duration="100"/>
+   	<item android:drawable="@drawable/numkanjithree10" android:duration="100" />
+   	<item android:drawable="@drawable/numkanjithree9" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree8" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree7" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree6" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree5" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree4" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree3" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree2" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree1" android:duration="100" />
+    <item android:drawable="@drawable/numkanjithree0" android:duration="400" />
+    
+
+</animation-list>
